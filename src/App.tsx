@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./App.css";
+import DayComponent from "./donelist/DayComponent";
 
 const App: React.FC = () => {
   return (
@@ -8,6 +9,7 @@ const App: React.FC = () => {
       <header className="App-header">
         Donelist
       </header>
+      <DayComponent year={2019} month={6} day={23} />
     </div>
   );
 };
